@@ -33,5 +33,30 @@
 
 ![Lista de Pesquisas Salvas](Imagens/PPLite-1B.png)
 
+# ELABORAÇÃO DA PESQUISA E ADIÇÃO DE ITENS
+
+**Passo 7:** Preencha as informações básicas da consulta, como título e observações, e clique em “Itens”.
+
+![Informações Básicas da Pesquisa](Imagens/PPLite-2.png)
+
+**Passo 8:** Na opção “Itens”, clique em “Adicionar Item” para incluir o material ou serviço que deseja pesquisar.
+
+![Adicionar Item](Imagens/Screenshot_18.jpg)
+
+**Passo 9:** No campo de texto, descreva de forma resumida o item que deseja pesquisar e selecione a opção mais adequada: **Material** ou **Serviço**.
+
+![Descrição do Item](Imagens/Screenshot_19.jpg)
+
+!!! note "Nota"
+    O sistema mostra as opções do catálogo do Compras.gov.br. Os itens que aparecem com a letra **M** antes do nome correspondem aos materiais e, aqueles que aparecem com a letra **S**, são serviços.
+    
+    *Exemplo:* Ao escrever "Computador" (Material), a lista exibirá `M - Computador`. Caso escreva "Manutenção de Computador" (Serviço), o sistema exibirá `S - Manutenção de Computador`.
+
+![Exemplo do Catálogo](Imagens/Screenshot_20.jpg)
+
+**Passo 10:** No painel de consulta, selecione o item que melhor atende ao que deseja pesquisar, assim como a quantidade, a unidade de fornecimento e as características necessárias para refinamento da pesquisa. Após identificar o item e preencher os campos de quantidade e unidade de fornecimento, clique na opção **“+”** para incluir o item na lista de pesquisa.
+
+![Painel de Consulta do Item](Imagens/PPLite-4.png)
+
 !!! note "Nota"
     Caso deseje iniciar uma pesquisa do zero (com ou sem login), clique no botão "Nova Pesquisa" e siga para os passos seguintes.
