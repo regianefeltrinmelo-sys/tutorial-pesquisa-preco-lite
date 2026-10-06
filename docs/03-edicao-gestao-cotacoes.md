@@ -1,88 +1,56 @@
-<div style="display: flex; justify-content: flex-end; align-items: center; gap: 8px; margin: 10px 0;">
-  <span style="font-size: 14px; color: #555; font-weight: bold;">Tamanho do texto:</span>
-  <button onclick="diminuirFonte()" title="Diminuir texto" style="padding: 6px 12px; font-weight: bold; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: #f8f9fa;">A-</button>
-  <button onclick="resetarFonte()" title="Tamanho normal" style="padding: 6px 12px; font-weight: bold; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: #f8f9fa;">A</button>
-  <button onclick="aumentarFonte()" title="Aumentar texto" style="padding: 6px 12px; font-weight: bold; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: #f8f9fa;">A+</button>
-  <button onclick="window.print()" style="background-color: #0056b3; color: white; padding: 6px 16px; border: none; border-radius: 5px; font-size: 14px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.2); margin-left: 10px;">
-  🖨️ Imprimir ou baixar esta página
-  </button>
-</div>
+# EDIÇÃO E GESTÃO DE COTAÇÕES
 
-# CONVOCAÇÃO DE CONTRATAÇÃO DE REMANESCENTES PELAS CONDIÇÕES DO VENDEDOR
+**Passo 11:** Caso deseje alterar a pesquisa, clique em “Editar item” (ícone de lápis) ou em “Excluir Itens” (ícone de lixeira vermelha).
 
-O processo de convocação de remanescentes começa pela oportunidade de assumir o contrato nas mesmas condições do fornecedor. Para manifestar se aceita ou assumir o contrato pelas condições do vencedor, siga as instruções abaixo:
+![Editar ou Excluir Item](Imagens/PPLite-10.png)
 
-**Passo 01:** No cabeçalho do campo proposta, será indicado o prazo para manifestação de interesse de fornecer pelas condições do vencedor. Revise as informações sobre as condições da contratação e selecione a opção desejada.
+**Passo 12:** Após clicar em “Editar item”, abrirá a tela de edição. No topo da página, o sistema exibe as informações oficiais do catálogo do sistema Compras.gov.br (CATMAT para materiais ou CATSER para serviços) a respeito do item selecionado:
 
-![Tela 11](Imagens/tela11-aceitar-preco-do-vencedor.png)
+* **Descrição do Item:** Mostra o código (CATMAT ou CATSER) e a descrição padronizada (*Ex.: 500075 - Caneta Esferográfica Material: Madeira*).
+* **Quantidade e Unidade de Fornecimento:** Indica a quantidade estipulada para a contratação e como o item é fornecido (*Ex.: Caixa 50 Unidade*).
 
-Confirme sua opção.
+![Informações do Item no Catálogo](Imagens/PPLite-11.png)
 
-![Tela 12](Imagens/tela12-confirmar-opcao.png)
+**Passo 13:** Faça as alterações necessárias e clique em “Aplicar”.
 
-**Passo 02:** Durante o prazo de manifestação indicado, você poderá alterar sua opção. Selecione a nova opção.
+![Aplicar Alterações](Imagens/Screenshot_25.jpg)
 
-![Tela 13](Imagens/tela13-alterar-opcao.png)
+**Passo 14:** Confirme a alteração do item.
 
-Confirme.
+![Confirmar Alteração](Imagens/Screenshot_24.jpg)
 
-![Tela 14](Imagens/tela14-confirmar-alteracao.png)
+Pronto, a cotação para aquele item foi atualizada! Para atualizar os demais itens, basta seguir novamente as instruções dos Passos 11 e 12.
 
-Quando o prazo do processo finalizar para todos os fornecedores que participaram do processo se manifestarem, o agente de contratação partirá para a etapa de habilitação e julgamento dessa convocação de remanescentes. 
+---
 
-**Passo 03:** Acesse o item em convocação de remanescentes selecionando a opção “Operar item”.
+## Indicadores Estatísticos e Painel de Controle
 
-![Tela 15](Imagens/tela15-solicitacao-de-envio-de-documentacao.png)
+O Pesquisa de Preços Lite exibe indicadores em tempo real para análise dos valores encontrados:
 
-Para visualizar quais documentos foram solicitados, acesse a seção “Anexos”.
+![Painel Estatístico e Indicadores](Imagens/Screenshot_22.jpg)
 
-![Tela 16](Imagens/tela16-upload-de-anexo.png)
+* **Métodos de Cálculo:** Permite visualizar e alternar o critério de obtenção do preço estimado entre **Menor Preço**, **Média** ou **Mediana**. O método selecionado influenciará diretamente no valor de referência calculado pelo sistema.
+* **Painel de Controle Estatístico:** Localizado à direita, apresenta o **Coeficiente de Variação**, o **Desvio Padrão** e o **Maior Preço** encontrado na amostra, servindo de parâmetro para analisar a homogeneidade e a segurança dos dados.
 
-Leia a justificativa e o conteúdo da solicitação e encaminhe os documentos necessários. Para isso, leia os avisos de sistema e declare ciência.
+---
 
-![Tela 17](Imagens/tela17-encerrar-envio-de-anexo.png)
+## Detalhamento das Contratações Públicas
 
-Anexe todos os arquivos clicando no local indicado ou arrastando os arquivos para essa área. Finalize o carregamento de todos os documentos e clique em “Encerrar envio de anexos”.
+O sistema apresenta a relação das contratações públicas que foram selecionadas para compor os preços. Ao expandir o registro na seção “Lista de cotações realizadas para o item”, o usuário tem acesso completo às informações da compra, incluindo:
 
-![Tela 18](Imagens/tela18-encerrar-envios-de-anexos.png)
+* Número do processo;
+* Modalidade de contratação (*Ex.: Dispensa*);
+* Dados do fornecedor e marca do produto;
+* Critério de julgamento.
 
-**Passo 04:** Para visualizar e responder as mensagens encaminhadas pelo agente de contratação responsável, selecione a seção “Chat”.
-
-![Tela 19](Imagens/tela19-chat.png)
-
-Essa área serve para comunicação entre as partes, caso haja dúvidas sobre o processo. Preencha a mensagem desejada e clique em “Enviar” para encaminhá-la ao agente de contratação.
-
-![Tela 20](Imagens/tela20-mensagens.png)
-
-**Passo 05:** Caso a documentação da proposta de fornecimento não atenda aos requisitos de edital, o fornecedor será desclassificado. Assim, ficará na tela a indicação “Classificação na convocação de remanescente: Desclassificado”.
-
-![Tela 21](Imagens/tela21-fornecedor-desclassificado.png)
-
-O fornecedor não estará apto a participar novamente desta convocação de remanescente enquanto o status de “Desclassificado” persistir.
+![Lista de Cotações do Item](Imagens/PPLite-11.png)
 
 !!! warning "Atenção"
-    Recursos referentes à desclassificação deverão ser encaminhados diretamente ao órgão contratante.
+    É possível gerenciar as contratações que compõem a pesquisa de preços:
+    
+    * **Coluna Compor:** Permite ativar ou desativar uma cotação específica. Quando a opção estiver desativada, o valor é excluído dos cálculos estatísticos.
+    * **Coluna Ações:** O ícone de lixeira exclui definitivamente o registro da lista do item.
 
-**Passo 06:** Caso a documentação de habilitação não atenda aos requisitos de edital, o fornecedor será inabilitado. Assim, ficará na tela a indicação “Classificação na convocação de remanescente: Inabilitado”.
-
-![Tela 22](Imagens/tela22-fornecedor-inabilitado.png)
-
-O fornecedor não estará apto a participar novamente desta convocação de remanescente enquanto o status de “Inabilitado” persistir.
-
-!!! warning "Atenção"
-    Recursos referentes à desclassificação deverão ser encaminhados diretamente ao órgão contratante.
-
-**Passo 07:** Caso toda a documentação apresentada esteja de acordo com as exigências de edital, o fornecedor será aceito para fornecimento de remanescente contratual. Assim, ficará na tela a indicação “Classificação na convocação de remanescente: Aceito e habilitado”.
-
-![Tela 23](Imagens/tela23-fornecedor-aceito-e-habilitado.png)
-
-**Passo 08:** Para a formalizar o processo, o agente de contratação encerrará a convocação de remanescentes. Assim, ficará na tela a indicação “Situação: Encerrada”.
-
-![Tela 24](Imagens/tela24-convocacao-encerrada.png)
-
-<br>
-<div style="text-align: right; margin: 10px 0;">
-  <button onclick="window.print()" style="background-color: #0056b3; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
   🖨️ Imprimir ou baixar esta página
   </button>
 </div>
